@@ -1,6 +1,13 @@
 #include <stdlib.h>
 #include <malloc.h>
-
+/*
+	dummy c solution for addTwoNumbers question from leetcode.com
+	question's url: https://leetcode.com/problems/add-two-numbers/
+	
+	solution is dummy because it fails with very large inputs like 10021303020130230513103
+	it only works in limits of unsigned long long
+	!! it's not an accepted solution
+*/
 // my addNode function from my binaryTree repo
 struct ListNode* addNode(struct ListNode* newnode, int value){
 	if(newnode == NULL){
