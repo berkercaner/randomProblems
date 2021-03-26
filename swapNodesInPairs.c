@@ -45,13 +45,13 @@ struct ListNode* swapPairs(struct ListNode* head){
     	
     	q = p->next = B ==>	 	 A{p} -> B {q} -> C -> D
     	temp = q->next = C ==>   A{p} -> B {q} -> C{tmp} -> D
-    	q->next = p  ===> 		 A{p} -> <- B{q}     C{tmp} -> D
+    	q->next = p  ===>        A{p} -> <- B{q}  C{tmp} -> D
     	
-    	p->next = temp->next ==> A{p} <- B{q} 		C{tmp} -> D
-    							  |							  |
-    							   --------------------------->
+    	p->next = temp->next ==> A{p} <- B{q}     C{tmp} -> D
+                                 |                           |
+                                  --------------------------->
     							   
-    	p = temp ==> 			  A   <-  B 		C{p} ->   D
-    							  |							  |
-    							   --------------------------->						   
+    	p = temp ==>              A   <-  B         C{p} ->   D
+    							  |                           |
+                                   --------------------------->						   
     */
