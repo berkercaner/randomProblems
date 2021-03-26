@@ -52,6 +52,7 @@ struct ListNode* swapPairs(struct ListNode* head){
                                   --------------------------->
     							   
     	p = temp ==>              A   <-  B         C{p} ->   D
-    							  |                           |
+                                  |                           |
                                    --------------------------->						   
-    */
+    */    
+    
