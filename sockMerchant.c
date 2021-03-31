@@ -18,7 +18,7 @@ int sockMerchant(int n, int ar_count, int* ar){
 			hashArr[ar[i]-1] = ar[i];
 		else{  // if pairs match, clean it to count if there will be other pair with same value
 			pairs++;
-			hassArr[ar[i]-1] = 0;
+			hashArr[ar[i]-1] = 0;
 		}
 	}
 	return pairs;
